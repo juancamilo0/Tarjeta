@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(18, 201, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.colorPantalla{
+    background-color: rgb(206, 40, 10);
+    height: 100px;
+    width: 400px;
+}
+.pantallaPrincipal{
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.nav{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+#change{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(64, 9, 165);
+    border-radius: 100px;
+}
+#disminuir{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(253, 124, 2);
+    border-radius: 100px;
+    
+}
+#aumentar{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(253, 124, 2);
+    border-radius: 50%;
+}
+#enviar{
+    width: 250px;
+    height: 30px;
+    background-color:rgb(206, 40, 10);
+    border-radius: 100px;
+}
+.icono{
+    height: 250px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
